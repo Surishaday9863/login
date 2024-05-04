@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    position: sticky;
+    top: 0px;
+    background-image: radial-gradient( #904c72 10% ,#dc54934c 100%);
+}
+
+.cabezote{
+    height: 100vh;
+    position: relative;
+    position: sticky;
+    top: 0px;
+    font-family: cursive;
+    
+}
+
+.top{
+    border-bottom: 1px solid rgba(86, 84, 84, 0.576);
+    box-shadow: 0 0 8px black;
+    background-color: rgba(205, 172, 220, 0.562);
+    position: sticky;
+    top: 0px;
+}
+
+.contenedor{
+    width: 75%;
+    margin: auto;
+    position: sticky;
+    top: 0px;
+    
+}
+
+.top .contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+
+.bmenu ul{
+    display: flex;
+    list-style-type: none;
+    margin: 10;
+    padding: 10;
+    position: sticky;
+    top: 0px;
+}
+
+.bmenu ul li:not(:last-child) {
+    margin-right: 230px;
+    position: sticky;
+    top: 0px;
+    position: sticky;
+    top: 0px;
+}
+
+.bmenu ul li a{
+    color: rgb(1, 1, 1);
+    text-decoration: none;
+    letter-spacing: 1px;
+    position: sticky;
+    top: 0px;
+}
+.bmenu ul li a:hover {
+    color: rgb(167, 30, 146);
+    text-decoration: underline;
+}
+
+img{
+    width: 60vh;
+    margin: 100;
+    padding: 100;
+}
+
+.overlay{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    width: 100%;
+    height: 100%;
+    background-color: rgba(130, 25, 114, 0.486);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
